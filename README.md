@@ -10,10 +10,16 @@ Pandas dataframe används för att ladda och presentera highscore lista.
 Spelet bygger på klasser med metoder för att generera spelkort, hantera logik etc. 
 Dessa klasser finns i "spelmotor.py"
 
-Strukturen för klasserna är:  
-    Spel  
-        Kortlek  
-            Spelkort  
-        Person (spelare)  
-  
+## Strukturen för klasserna
+En stor del av spelet hanteras av klassen Spel och dess metoder
+
+Spel
+
+&nbsp;&nbsp;&nbsp;Kortlek
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Spelkort
+
+&nbsp;&nbsp;&nbsp;Person (spelare)
+
+## Operativssystem
 Spelet är utvecklat och testat på en Windows maskin. Har ej haft möjlighet att testa funktionen "rensa_skärm" på annat operativssystem.
