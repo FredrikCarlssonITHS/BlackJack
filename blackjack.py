@@ -92,10 +92,8 @@ def SpelaMotDator():
             spel.kontrollera()
             spel.skriv_spelbord()
 
-            antal_omgångar = 1
             # spelomgångens huvudloop, avslutas när någon vunnit eller det blivit oavgjort
             while True:
-                antal_omgångar += 1
                 if spel.resultat == "": 
                     alternativ = input("T = Ta kort  S = Stanna A = Avsluta >")
                     match (alternativ.upper()):
